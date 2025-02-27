@@ -1,0 +1,301 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de pantallas led</title>
+    <style>
+        body {
+            font-family: H1;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            background-image: url:"C:\Users\Alumno\Downloads\descarga.png"
+            background-size: cover;
+            background-position: center;
+        }
+
+        header {
+            background-color:pink;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .moving-title {
+            display: inline-block;
+            white-space: nowrap;
+            overflow: hidden;
+            box-sizing: border-box;
+            animation: moveTitle 10s linear infinite;
+        }
+
+        @keyframes moveTitle {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .menu a:hover {
+            background-color: red;
+            color: black;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .logo img {
+            width: 40%;
+            height: auto;
+        }
+
+        .productos {
+            margin: 20px;
+        }
+
+        .producto {
+            background-color: pink;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .producto img {
+            width: 40%;
+            height: auto;
+            border-radius: 1px;
+        }
+
+        .producto p {
+            font-size: 18px;
+            color: blue;
+        }
+
+        .cta {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .cta button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .cta button:hover {
+            background-color: #ff9900;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .formulario {
+            margin: 20px;
+            text-align: center;
+        }
+
+        .formulario input, .formulario textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            width: 100%;
+            max-width: 500px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+
+        .formulario button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .formulario button:hover {
+            background-color: #ff9900;
+        }
+
+        .links {
+            margin: 20px;
+        }
+
+        .links ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .links li {
+            margin: 10px 0;
+        }
+
+        .links a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .tabla-productos {
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .tabla-productos table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .tabla-productos td, .tabla-productos th {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .tabla-productos img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .tabla-productos ul {
+            list-style-type: disc;
+            padding-left: 20px;
+            text-align: left;
+        }
+
+        .tabla-productos li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="moving-title">pantallas led</h1>
+    </header>
+    <div class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+    </div>
+    <div class="logo">
+        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pixelwindow.com.mx%2Fpantallasledpublicitarias&psig=AOvVaw2lbjby7pPtCSV7S9JhevXU&ust=1740778290849000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJC0u4no5IsDFQAAAAAdAAAAABAE" alt="Logo">
+    </div>
+    <section class="productos" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="producto">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.made-in-china.com%2Fco_szpengyue%2Fproduct_HD-LED-Video-Wall-P6-P8-P10-P3-P4-81-Indoor-Outdoor-Advertising-Digital-Billboard-Display-Screen_uoegusnesg.html&psig=AOvVaw1x-_aIKxQenvE1FaeIq0a6&ust=1740778241115000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDxpfPn5IsDFQAAAAAdAAAAABAQ" alt="Pantalla LED 1">
+            <p>Pantalla pich 3.9 exterior interior contra agua- $10,500 cada modulo precio por caja de 280,000</p>
+        </div>
+        <div class="producto">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tecsadomotica.com%2Ftecsa-se8-ac7500-576-x-384m&psig=AOvVaw1x-_aIKxQenvE1FaeIq0a6&ust=1740778241115000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDxpfPn5IsDFQAAAAAdAAAAABAo" alt="Pantalla LED 2">
+            <p>Pantalla pich 3.0 interior - $8000 cada modulo, precio por caja de 250,000</p>
+        </div>
+        <div class="producto">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.blucactus.com.mx%2Fbeneficios-de-pantallas-led-exteriores%2F&psig=AOvVaw1x-_aIKxQenvE1FaeIq0a6&ust=1740778241115000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDxpfPn5IsDFQAAAAAdAAAAABAw" alt="Pantalla LED 3">
+            <p>Pantalla pich 3.9 interior exterior, contra agua - $12,500 cada modulo, precio por caja de 250,000</p>
+        </div>
+        <div class="producto">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.chipshow.com%2Fc-arc-curved-led-screen-arc-flat-splicing-indoor-display-p2-6_p59.html&psig=AOvVaw2ilLUZJ58E6RuH3yiGp6Xn&ust=1740778529392000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj45_vo5IsDFQAAAAAdAAAAABAE" alt="Pantalla LED 4">
+            <p>Pantalla curva interior exterior, contra agua - $20,000 cada modulo, precio por caja de 500,000</p>
+        </div>
+    </section>
+    <div class="cta">
+        <button>¡Compra Ahora!</button>
+    </div>
+    <div class="formulario" id="contacto">
+        <h2>Contacto</h2>
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo Electrónico" required>
+        <textarea placeholder="Mensaje" required></textarea>
+        <button>Enviar</button>
+    </div>
+    <section class="links" id="links">
+        <h2>Links Útiles</h2>
+        <ul>
+            <li><a href="https://www.ins-digital.com/pixel-pitch-que-es-importancia-eleccion/#:~:text=El%20p%C3%ADxel%20pitch%20se%20puede,muestra%20al%20usuario%20o%20espectador."target="_blank">Importancia del pitch</a></li>
+            <li><a href="https://www.kingaurora.com/Outdoor_LED_Display.html?gad_source=1&gclid=EAIaIQobChMIqfnB54_diwMV5SFECB2EJx1bEAAYAiAAEgI3EPD_BwE" target="_blank">Mas informacion</a></li>
+        </ul>
+    </section>
+    <div class="tabla-productos">
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Descripción</th>
+            </tr>
+            <tr>
+                <td><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ledvisual.com%2Fpantalla-led-indoor-p391-con-novastar%2F&psig=AOvVaw1x-_aIKxQenvE1FaeIq0a6&ust=1740778241115000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDxpfPn5IsDFQAAAAAdAAAAABBJ" alt="Producto 1"></td>
+                <td><ul><li>Este producto cuenta con financiamiento apartir de una venta de  $200,000</li></ul></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.blucactus.com.mx%2Fbeneficios-de-pantallas-led-exteriores%2F&psig=AOvVaw1x-_aIKxQenvE1FaeIq0a6&ust=1740778241115000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDxpfPn5IsDFQAAAAAdAAAAABAw" alt="Producto 2"></td>
+                <td><ul><li>Este producto cuenta con financiamiento apartir de una venta de  $450,000</li></ul></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tecsadomotica.com%2Ftecsa-se8-ac7500-576-x-384m&psig=AOvVaw1x-_aIKxQenvE1FaeIq0a6&ust=1740778241115000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDxpfPn5IsDFQAAAAAdAAAAABA5" alt="Producto 3"></td>
+                <td><ul><li>Este producto cuenta con financiamiento apartir de una venta de  $300,000</li></ul></td>
+            </tr>
+            <tr>
+                <td><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.chipshow.com%2Fc-arc-curved-led-screen-arc-flat-splicing-indoor-display-p2-6_p59.html&psig=AOvVaw2ilLUZJ58E6RuH3yiGp6Xn&ust=1740778529392000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNj45_vo5IsDFQAAAAAdAAAAABAK" alt="Producto 4"></td>
+                <td><ul><li>Este producto cuenta con financiamiento apartir de una venta de  $450,000</li></ul></td>
+            </tr>
+        </table>
+    </div>
+        <h2>Uso de comandos para acentos</h2>
+        <ol>
+            <li>&aacute; - á</li>
+            <li>&eacute; - é</li>
+            <li>&iacute; - í</li>
+            <li>&oacute; - ó</li>
+            <li>&uacute; - ú</li>
+            <li>&Aacute; - Á</li>
+            <li>&Eacute; - É</li>
+            <li>&Iacute; - Í</li>
+            <li>&Oacute; - Ó</li>
+            <li>&Uacute; - Ú</li>
+            <li>&ntilde; - ñ</li>
+            <li>&Ntilde; - Ñ</li>
+        </ol>
+    </section>
+</footer>
+
+    <footer class="footer">
+        <p>© 2025 venta de pantallas led. Todos los derechos reservados.</p>
+    </footer>
+    </body>
+</html>
